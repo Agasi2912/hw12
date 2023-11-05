@@ -18,11 +18,10 @@ function Board() {
   }
 
   function restart() {
-    function restart() {
-      setSquares(Array(9).fill(null));
-      setNextValue('X');
-    }
+    setSquares(Array(9).fill(null));
+    setNextValue('X');
   }
+  
 
   function renderSquare(i) {
     return (
